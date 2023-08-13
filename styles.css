@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p .truncate-3l {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bg-custom-color,
+.btn-danger {
+    background-color: #00A3B4;
+}
+
+
+.text-danger strong {
+    color: #FF8401;
+}
+
+.bi-suit-heart {
+    color: #00A3B4;
+}
+
+.custom-btn {
+    background-color: #00A3B4;/* Cor de fundo do botão */
+    border-color: darkpurple; /* Cor da borda do botão */
+    color: white; /* Cor do texto do botão */
+    transition: 0.4s; /* Tempo da transição */
+}
+
+.custom-btn:hover {
+    background-color: #FF8401; /* Cor de fundo ao passar o mouse */
+    border-color: #FF8401;/* Cor da borda ao passar o mouse */
+}
+
+.button-btn {
+    background-color: #00A3B4;
+    color: #fff;
+    transition: 0.4s; /* Tempo da transição */
+}
+
+.button-btn:hover {
+    background-color: #007986;
+}
